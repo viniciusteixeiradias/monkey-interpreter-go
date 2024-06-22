@@ -67,7 +67,7 @@ func (l *Lexer) NextToken() token.Token {
 
 	l.skipWhitespace()
 
-	print("l.ch: ", string(l.ch), "\n")
+	// print("l.ch: ", string(l.ch), "\n")
 
 	switch l.ch {
 	case '=':
